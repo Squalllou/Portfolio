@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Booki",
-    screenshot: "./img/Booki_Miniature.png",
+    screenshot: `${import.meta.env.BASE_URL}img/Booki_Miniature.png`,
     description: "Premier site en HTML/CSS que j'ai réalisé au cours de ma formation. J'ai ainsi découvert l'HTML et le CSS pour construire un site de location de logement en suivant rigoureusement un cahier des charges. Nous avons donc une maquette de site consultable en ligne grâce à GitHub Pages.",
     src: "https://squalllou.github.io/ProjetBooki/",
     details: null
