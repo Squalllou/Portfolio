@@ -1,0 +1,28 @@
+.projects-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8792D8 ;
+  border-radius: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+.side-image {
+  position: absolute;
+  left: 4.6%;
+  top: 3.5%;
+  width: 270.5px;                 /* largeur auto pour garder les proportions */
+  height: 100%;                /* prend toute la hauteur de la section */
+  background-image: url("../assets/img/projets.png");
+  background-size: contain;    /* garde les proportions */
+  background-repeat: no-repeat;
+  background-position: left center; /* bien à gauche et centré verticalement */
+}
+
+
+.projects-section h2 {
+  font-size: 50px;
+  font-weight:600;
+}

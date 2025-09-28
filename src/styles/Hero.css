@@ -1,0 +1,58 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero-content {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.hero-photo-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 35px;
+}
+
+.hero-photo {
+  display: block;
+  border-radius: 35px;
+  object-fit: cover;
+  width: 540px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-photo-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+  border-radius: 35px;
+  background: linear-gradient(
+    180deg,
+    #3F4EAF 69.58%,
+    #2B3577 87.21%,
+    #1A2149 100%
+  );
+  margin: -10px;
+  transform: scale(1.05);
+  z-index: 0;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.special-name {
+  font-family: 'Pixelify Sans';
+  font-size: 1.5em;
+  font-weight: lighter;
+}

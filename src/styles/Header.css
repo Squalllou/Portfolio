@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px;
+}
+
+.header h2 {
+  font-weight: lighter;
+}
+
+.nav {
+  display: flex;
+  gap: 100px;
+}
+
+.nav a:hover {
+  color: #73B6FF;
+}

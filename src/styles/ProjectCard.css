@@ -1,0 +1,94 @@
+.project-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  height: 450px;
+  background-color: #EEE8F4;
+  border-radius: 20px;
+  padding-left: 80px;
+}
+
+.project-card.reversed {
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+
+.project-image {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  margin-right: 50px;
+}
+
+.project-image img {
+  width: 500px;
+  border-radius: 15px;
+  cursor: pointer;
+  position:relative;
+  z-index: 1;
+}
+
+/* Ombre sur la gauche */
+.project-image.left-shadow::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+  border-radius: 15px;
+  background: linear-gradient(
+    180deg,
+    #3F4EAF 69.58%,
+    #2B3577 87.21%,
+    #1A2149 100%
+  );
+  margin: -1px;
+  transform: scale(1.05);
+  z-index: 0;
+}
+
+/* Ombre sur la droite */
+.project-image.right-shadow::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 95%;
+  height: 95%;
+  border-radius: 15px;
+  background: linear-gradient(
+    180deg,
+    #3F4EAF 69.58%,
+    #2B3577 87.21%,
+    #1A2149 100%
+  );
+  margin: -1px;
+  transform: scale(1.05);
+  z-index: 0;
+}
+
+.project-text {
+  width: 100%;
+  margin: 20px;
+}
+
+.project-text h3 {
+  font-family: 'Pixelify Sans';
+  font-size: xxx-large;
+  font-weight: 400;
+  margin: 0;
+  width: 100%;
+}
+
+.text {
+  width: 70%;
+}

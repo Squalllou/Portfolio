@@ -1,0 +1,128 @@
+
+.project-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+
+.project-modal-overlay.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.project-modal-container {
+  position: relative;
+  width: 95vw;
+  height: 95vh;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.project-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  z-index: 10;
+}
+
+.project-modal-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.project-modal-content {
+  padding: 20px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.Bluel-bottom {
+  display: flex;
+  gap: 100px;
+}
+
+.modal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.modal-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.modal-row-Bluel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-row-kasa {
+display: flex;
+gap: 20px;
+}
+
+.modal-row-kasa p {
+  width: 30%;
+  margin-left: 100px;
+  font-size: x-large;
+}
+
+.kasa-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.kasa-bottom p{
+  font-size: x-large;
+  width: 30%;
+  margin-right: 50px;
+}
+
+.middle-kasa {
+  display:flex;
+  justify-content: center;
+}
+
+.modal-row p {
+  flex: 1;
+  min-width: 200px; 
+  font-size: x-large;
+  line-height: 1.5;
+}
+
+.modal-row img.screen,
+.modal-row-kasa img.screen,
+.kasa-bottom img.screen{
+  max-width: 600px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}

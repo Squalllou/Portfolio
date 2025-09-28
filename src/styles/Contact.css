@@ -1,0 +1,90 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin: 150px 100px 150px auto;
+  padding: 50px;
+  background-color: #68DD8CB2;
+  width: 40%;
+  border-radius: 35px;
+}
+
+.contact-section h2 {
+  font-size: 37px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.special-word {
+  font-family: 'Pixelify Sans';
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.contact-section p{
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  text-indent: 10px;
+  padding: 8px 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: 'Poppins' ;
+  width: 100%;
+  border: none;
+}
+
+.contact-form input {
+  border-radius: 25px;
+}
+
+.contact-form textarea {
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+}
+
+.contact-form input:focus::placeholder,
+.contact-form textarea:focus::placeholder {
+  color: transparent;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+  padding: 5px;
+  color: black;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Poppins';
+  cursor: pointer;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  background-color: #fff;
+}
+
+.contact-form button:hover {
+  border: 2px solid #48a1ff;
+  transition: border 0.05s;
+}
+
+.success-msg {
+  color: green;
+  margin-top: 10px;
+}
