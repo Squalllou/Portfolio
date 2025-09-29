@@ -51,16 +51,11 @@
   border: none;
 }
 
-
 .project-modal-content {
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 40px;
   overflow-y: auto;
   height: 100%;
-}
-
-.Bluel-bottom {
-  display: flex;
-  gap: 100px;
 }
 
 .modal-details {
@@ -69,46 +64,30 @@
   gap: 30px;
 }
 
-
 .modal-row {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
-.modal-row-Bluel {
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.img-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 50px;
 }
 
-.modal-row-kasa {
-display: flex;
-gap: 20px;
-}
-
-.modal-row-kasa p {
-  width: 30%;
-  margin-left: 100px;
-  font-size: x-large;
-}
-
-.kasa-bottom {
+.kasa {
   display: flex;
-  align-items: center;
-  justify-content: end;
-}
-
-.kasa-bottom p{
-  font-size: x-large;
-  width: 30%;
-  margin-right: 50px;
-}
-
-.middle-kasa {
-  display:flex;
-  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
 }
 
 .modal-row p {
@@ -118,10 +97,8 @@ gap: 20px;
   line-height: 1.5;
 }
 
-.modal-row img.screen,
-.modal-row-kasa img.screen,
-.kasa-bottom img.screen{
-  max-width: 600px;
+.modal-row img.screen {
+  max-width: 500px;
   width: 100%;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);

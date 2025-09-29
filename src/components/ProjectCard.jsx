@@ -27,7 +27,7 @@ function ProjectCard({ project, index }) {
         title={project.title}
         details={project.details}
       >
-        {!project.src && <p>{project.details}</p>}
+        {!project.src && project.details}
       </ProjectModal>
     </>
   );

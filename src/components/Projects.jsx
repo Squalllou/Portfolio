@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section id="projects" className="projects-section">
       <div className="side-image"></div>
-      <h2>Mes projets</h2>
+      <h2 className='title'>Mes projets</h2>
       {projectsData.map((project, index) => (
         <ProjectCard key={index} project={project} index={index} />
       ))}

@@ -9,20 +9,25 @@
   margin: 0;
 }
 
+.title {
+  padding-top: 30px;
+}
+
 .side-image {
   position: absolute;
-  left: 4.6%;
-  top: 3.5%;
-  width: 270.5px;                 /* largeur auto pour garder les proportions */
-  height: 100%;                /* prend toute la hauteur de la section */
+  left: 0;
+  top: 0;
+  width: 270.5px;                 
+  height: 100%;                
   background-image: url("../assets/img/projets.png");
-  background-size: contain;    /* garde les proportions */
+  background-size: contain;    
   background-repeat: no-repeat;
-  background-position: left center; /* bien à gauche et centré verticalement */
+  background-position: left center; 
 }
 
 
 .projects-section h2 {
   font-size: 50px;
-  font-weight:600;
+  font-weight:500;
+  margin-top: 0;
 }
