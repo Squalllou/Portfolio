@@ -16,3 +16,46 @@
     align-items: center;
     width: 20%;
 }
+
+/* Breakpoint 1325px */
+@media (max-width: 1325px) {
+  .privacy {
+    width: 25%;
+  }
+}
+
+/* Breakpoint 1024px */
+@media (max-width: 1024px) {
+  .privacy {
+    width: 40%;
+  }
+  .footer p {
+    font-size: smaller;
+  }
+}
+
+/* Breakpoint 785px */
+@media (max-width: 785px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .privacy {
+    width: 50%;
+  }
+  .footer p {
+    font-size: 0.8em;
+    text-align: center;
+  }
+}
+
+/* Breakpoint 360px */
+@media (max-width: 360px) {
+  .privacy {
+    width: 90%;
+  }
+  .footer p {
+    font-size: 0.7em;
+  }
+}

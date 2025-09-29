@@ -17,3 +17,46 @@
 .nav a:hover {
   color: #73B6FF;
 }
+
+/* Breakpoint 1325px */
+@media (max-width: 1325px) {
+  .header {
+    margin: 10px 40px;
+  }
+  .nav {
+    gap: 70px;
+  }
+}
+
+/* Breakpoint 1024px */
+@media (max-width: 1024px) {
+  .header {
+    margin: 10px 30px;
+  }
+  .nav {
+    gap: 50px;
+  }
+}
+
+/* Breakpoint 785px */
+@media (max-width: 785px) {
+  .header {
+    margin: 10px 20px;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 100%;
+  }
+}
+
+/* Mobile minimum 360px */
+@media (max-width: 360px) {
+  .header {
+    margin: 10px 10px;
+  }
+  .nav {
+    gap: 15px;
+  }
+}

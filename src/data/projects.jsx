@@ -13,7 +13,7 @@ const projects = [
     src: null,
     details:
     <div className="modal-details">
-      <div className="modal-row">
+      <div className="modal-column">
         <div className="img-wrapper">
         <img src="./img/Login_Sophie_Bluel.webp" alt="Login screen" className="screen"/>
         <img src="./img/Filtres_Sophie_Bluel.webp" alt="Recherche des appartements" className="screen"/>
@@ -45,7 +45,7 @@ const projects = [
     src: null,
     details:
       <div className="modal-details">
-        <div className="modal-row">
+        <div className="modal-column">
           <div className="img-wrapper kasa">
             <div className="img-wrapper">
               <img src="./img/Kasa_Miniature.webp" alt="Accueil" className="screen"/>

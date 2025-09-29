@@ -88,3 +88,91 @@
   color: green;
   margin-top: 10px;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+/* Breakpoint 1325px */
+@media (max-width: 1325px) {
+  .contact-section {
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto 100px auto; /* recentre un peu */
+  }
+  .contact-section h2 {
+    font-size: 32px;
+  }
+  .special-word {
+    font-size: 45px;
+  }
+}
+
+/* Breakpoint 1024px */
+@media (max-width: 1024px) {
+  .contact-section {
+    width: 60%;
+    padding: 35px;
+  }
+  .contact-section h2 {
+    font-size: 28px;
+  }
+  .special-word {
+    font-size: 40px;
+  }
+}
+
+/* Breakpoint 785px */
+@media (max-width: 785px) {
+  .contact-section {
+    width: 75%;
+    padding: 25px;
+    margin: 50px auto;
+  }
+  .contact-section h2 {
+    font-size: 24px;
+  }
+  .special-word {
+    font-size: 32px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+  .contact-form button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Breakpoint 360px */
+@media (max-width: 360px) {
+  .contact-section {
+    width: 80%;
+    padding: 15px;
+    margin: 30px auto;
+  }
+  .contact-section h2 {
+    font-size: 20px;
+  }
+  .special-word {
+    font-size: 28px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 12px;
+  }
+  .contact-form button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}

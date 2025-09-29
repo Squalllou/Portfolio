@@ -30,15 +30,18 @@ function Contact() {
       <h2>N'hésitez pas à me <span className="special-word">contacter</span></h2>
       <p>Je me ferai un plaisir de vous répondre</p>
       <form onSubmit={handleSubmit} className="contact-form">
-        <input 
+        <label htmlFor="name" className="visually-hidden">Nom</label>
+        <input
+          id="name" 
           name="name" 
           value={formData.name} 
           onChange={handleChange} 
           placeholder="Votre nom" 
           required 
         />
-
+        <label htmlFor="email" className="visually-hidden">Email</label>
         <input 
+          id="email"
           type="email" 
           name="email" 
           value={formData.email} 
@@ -46,8 +49,9 @@ function Contact() {
           placeholder="Votre adresse Email" 
           required 
         />
-
+        <label htmlFor="message" className="visually-hidden">Message</label>
         <textarea 
+          id="message"
           name="message" 
           value={formData.message} 
           onChange={handleChange} 
