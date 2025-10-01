@@ -97,7 +97,7 @@
     width: 300px;
   }
   .hero-text {
-    max-width: 90%;
+    max-width: 100%;
     text-align: center;
   }
 }

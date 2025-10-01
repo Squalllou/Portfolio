@@ -16,6 +16,7 @@
 
 .nav a:hover {
   color: #73B6FF;
+  cursor: pointer;
 }
 
 /* Breakpoint 1325px */
