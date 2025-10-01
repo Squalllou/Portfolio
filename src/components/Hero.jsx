@@ -5,7 +5,7 @@ function Hero() {
     <section id="hero" className="hero">
       <div className="hero-content">
         <div className="hero-photo-wrapper">
-          <img src="img/Ma_Photo.jpg" alt="Adrien" className="hero-photo" />
+          <img src="img/Ma_Photo.webp" alt="Adrien" className="hero-photo" />
         </div>
         <div className="hero-text">
           <h1>
